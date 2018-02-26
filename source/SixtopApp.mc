@@ -1,32 +1,31 @@
 using Toybox.Application as App;
 using Toybox.WatchUi as Ui;
 
-class NewProjectApp extends App.AppBase {
-	
+class SixtopApp extends App.AppBase 
+{
 	var cjx;
 	
-    function initialize() {
+    function initialize() 
+    {
         AppBase.initialize();
     }
 
     //! onStart() is called on application start up
-    function onStart(state) {
-    
-    }
+    function onStart(state) { }
 
     //! onStop() is called when your application is exiting
-    function onStop(state) {
-    }
+    function onStop(state) { }
 
     //! Return the initial view of your application here
-    function getInitialView() {
-    	cjx = new NewProjectView();
+    function getInitialView() 
+    {
+    	cjx = new SixtopView();
         return [ cjx ];
     }
     
-    function onSettingsChanged() {
+    function onSettingsChanged() 
+    {
     	cjx.settingsChanged = true;
         Ui.requestUpdate();
     }
-
 }

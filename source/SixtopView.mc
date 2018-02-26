@@ -6,7 +6,7 @@ using Toybox.Time.Gregorian as Greg;
 using Toybox.ActivityMonitor as AcMoni;
 using Toybox.Lang as Lang;
 
-class NewProjectView extends Ui.WatchFace 
+class SixtopView extends Ui.WatchFace 
 {
 	var  bluetoothLogo;
 	var settingsChanged = true;
@@ -141,17 +141,11 @@ class NewProjectView extends Ui.WatchFace
     //! Called when this View is removed from the screen. Save the
     //! state of this View here. This includes freeing resources from
     //! memory.
-    function onHide() {
-    }
+    function onHide() { }
 
     //! The user has just looked at their watch. Timers and animations may be started here.
-    function onExitSleep() {
-    	
-    }
+    function onExitSleep() { }
 
     //! Terminate any active timers and prepare for slow updates.
-    function onEnterSleep() {
-    
-    }
-
+    function onEnterSleep() { }
 }
