@@ -1,6 +1,7 @@
 MIT License
 
 Original work Copyright (c) 2016 Edward Laurence
+
 Modified work Copyright (c) 2018 Victor Palacios
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
